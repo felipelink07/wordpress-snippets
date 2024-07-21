@@ -2,7 +2,7 @@
 
 Code snippets to be used in WordPress
 
-##About
+## About
 
 Welcome! 
 
