@@ -1,0 +1,30 @@
+/**
+ *
+ * Important!
+ * Not all elments are affected by the border radius.Imagens, for example, are not.But, you can add to sections when creatign a box.
+ *
+ */
+
+.br-sm{
+	border-radius: 0.5rem; /*8px*/
+}
+
+.br-md{
+	border-radius: 1rem; /*16px*/
+}
+
+.br-lg{
+	border-radius: 1.5rem; /*24px*/
+}
+
+.br-xl{
+	border-radius: 2rem; /*32px*/
+}
+
+.br-xxl{
+	border-radius: 2.5rem; /*40px*/
+} 
+
+
+
+

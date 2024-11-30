@@ -1,0 +1,268 @@
+/*=============================================
+=            Variables                        =
+=============================================*/
+
+:root {
+  --pad-sm: 1.5rem; /*24px*/
+  --pad-md: 2rem; /*32px*/
+  --pad-lg: 3rem; /*48px*/
+  --pad-xl: 4rem; /*64px*/
+  --pad-xxl: 5rem; /*80px*/
+
+  /*==== Left and Right Padding ====*/
+
+  --pad-lr-sm: 1.5rem; /*24px*/
+  --pad-lr-md: 2rem; /*32px*/
+  --pad-lr-lg: 2.5rem; /*40px*/
+  --pad-lr-xl: 3rem; /*48px*/
+  --pad-lr-xl: 4rem; /*64px*/
+
+  /*==== Padding Box ====*/
+
+  --pad-box-sm: 2rem; /*32px*/
+  --pad-box-md: 3rem; /*40px*/
+  --pad-box-lg: 5rem; /*80px*/
+  --pad-box-xl: 7rem; /*112px*/
+}
+
+/*=====  End of Variables  ======*/
+
+/*=============================================
+  =               Phone Viewport                =
+  =============================================*/
+
+/*===== Padding all sides =====*/
+
+.m-pad-sm {
+  padding-top: var(--pad-sm);
+  padding-bottom: var(--pad-sm);
+  padding-left: var(--pad-sm);
+  padding-right: var(--pad-sm);
+}
+
+.m-pad-md {
+  padding-top: var(--pad-md);
+  padding-bottom: var(--pad-md);
+  padding-left: var(--pad-md);
+  padding-right: var(--pad-md);
+}
+
+.m-pad-lg {
+  padding-top: var(--pad-lg);
+  padding-bottom: var(--pad-lg);
+  padding-left: var(--pad-lg);
+  padding-right: var(--pad-lg);
+}
+
+.m-pad-xl {
+  padding-top: var(--pad-xl);
+  padding-bottom: var(--pad-xl);
+  padding-left: var(--pad-xl);
+  padding-right: var(--pad-xl);
+}
+
+.m-pad-xxl {
+  padding-top: var(--pad-xxl);
+  padding-bottom: var(--pad-xxl);
+  padding-left: var(--pad-xxl);
+  padding-right: var(--pad-xxl);
+}
+
+/*===== Pad-box =====*/
+
+.m-pad-box-sm {
+  padding-top: var(--pad-box-sm);
+  padding-bottom: var(--pad-box-sm);
+  padding-left: var(--pad-sm);
+  padding-right: var(--pad-sm);
+}
+
+.m-pad-box-md {
+  padding-top: var(--pad-box-md);
+  padding-bottom: var(--pad-box-md);
+  padding-left: var(--pad-sm);
+  padding-right: var(--pad-sm);
+}
+
+.m-pad-box-lg {
+  padding-top: var(--pad-box-lg);
+  padding-bottom: var(--pad-box-lg);
+  padding-left: var(--pad-sm);
+  padding-right: var(--pad-sm);
+}
+
+.m-pad-box-xl {
+  padding-top: var(--pad-box-xl);
+  padding-bottom: var(--pad-box-xl);
+  padding-left: var(--pad-sm);
+  padding-right: var(--pad-sm);
+}
+
+.m-pad-no {
+  padding: 0 0 0 0 !important;
+}
+
+/*=====  End of Phone Viewport  ======*/
+
+/*=============================================
+  =              Tablet viewport                =
+  =============================================*/
+
+@media (min-width: 768px) {
+  /*===== Padding all sides =====*/
+
+  .t-pad-sm {
+    padding-top: var(--pad-sm);
+    padding-bottom: var(--pad-sm);
+    padding-left: var(--pad-sm);
+    padding-right: var(--pad-sm);
+  }
+
+  .t-pad-md {
+    padding-top: var(--pad-md);
+    padding-bottom: var(--pad-md);
+    padding-left: var(--pad-md);
+    padding-right: var(--pad-md);
+  }
+
+  .t-pad-lg {
+    padding-top: var(--pad-lg);
+    padding-bottom: var(--pad-lg);
+    padding-left: var(--pad-lg);
+    padding-right: var(--pad-lg);
+  }
+
+  .t-pad-xl {
+    padding-top: var(--pad-xl);
+    padding-bottom: var(--pad-xl);
+    padding-left: var(--pad-xl);
+    padding-right: var(--pad-xl);
+  }
+
+  .t-pad-xxl {
+    padding-top: var(--pad-xxl);
+    padding-bottom: var(--pad-xxl);
+    padding-left: var(--pad-xxl);
+    padding-right: var(--pad-xxl);
+  }
+
+  /*===== Pad-box =====*/
+
+  .t-pad-box-sm {
+    padding-top: var(--pad-box-sm);
+    padding-bottom: var(--pad-box-sm);
+    padding-left: var(--pad-sm);
+    padding-right: var(--pad-sm);
+  }
+
+  .t-pad-box-md {
+    padding-top: var(--pad-box-md);
+    padding-bottom: var(--pad-box-md);
+    padding-left: var(--pad-sm);
+    padding-right: var(--pad-sm);
+  }
+
+  .t-pad-box-lg {
+    padding-top: var(--pad-box-lg);
+    padding-bottom: var(--pad-box-lg);
+    padding-left: var(--pad-sm);
+    padding-right: var(--pad-sm);
+  }
+
+  .t-pad-box-xl {
+    padding-top: var(--pad-box-xl);
+    padding-bottom: var(--pad-box-xl);
+    padding-left: var(--pad-sm);
+    padding-right: var(--pad-sm);
+  }
+
+  .t-pad-no {
+    padding: 0 0 0 0 !important;
+  }
+}
+
+/*=====  End of Tablet viewport   ======*/
+
+/*=============================================
+  =           Desktop/Laptop           	  =
+ =============================================*/
+
+/*===== Padding all sides =====*/
+
+@media (min-width: 1200px) {
+  /*===== Padding all sides =====*/
+
+  .pad-sm {
+    padding-top: var(--pad-sm);
+    padding-bottom: var(--pad-sm);
+    padding-left: var(--pad-sm);
+    padding-right: var(--pad-sm);
+  }
+
+  .pad-md {
+    padding-top: var(--pad-md);
+    padding-bottom: var(--pad-md);
+    padding-left: var(--pad-md);
+    padding-right: var(--pad-md);
+  }
+
+  .pad-lg {
+    padding-top: var(--pad-lg);
+    padding-bottom: var(--pad-lg);
+    padding-left: var(--pad-lg);
+    padding-right: var(--pad-lg);
+  }
+
+  .pad-xl {
+    padding-top: var(--pad-xl);
+    padding-bottom: var(--pad-xl);
+    padding-left: var(--pad-xl);
+    padding-right: var(--pad-xl);
+  }
+
+  .pad-xxl {
+    padding-top: var(--pad-xxl);
+    padding-bottom: var(--pad-xxl);
+    padding-left: var(--pad-xxl);
+    padding-right: var(--pad-xxl);
+  }
+
+  /*===== Pad box =====*/
+
+  .pad-box-sm {
+    padding-top: var(--pad-box-sm);
+    padding-bottom: var(--pad-box-sm);
+    padding-left: var(--pad-sm);
+    padding-right: var(--pad-sm);
+  }
+
+  .pad-box-md {
+    padding-top: var(--pad-box-md);
+    padding-bottom: var(--pad-box-md);
+    padding-left: var(--pad-sm);
+    padding-right: var(--pad-sm);
+  }
+
+  .pad-box-lg {
+    padding-top: var(--pad-box-lg);
+    padding-bottom: var(--pad-box-lg);
+    padding-left: var(--pad-sm);
+    padding-right: var(--pad-sm);
+  }
+
+  .pad-box-xl {
+    padding-top: var(--pad-box-xl);
+    padding-bottom: var(--pad-box-xl);
+    padding-left: var(--pad-sm);
+    padding-right: var(--pad-sm);
+  }
+
+  .pad-no {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/*=====  End of Desktop/Laptop  ======*/

@@ -1,0 +1,9 @@
+/* Remove the line height for every icon on the whole website. */
+.elementor-icon-wrapper {
+    line-height: 0 !important;
+    }
+    
+    /* Remove the line height for custom hamburger icons in the menu widget. */
+    span.elementor-menu-toggle__icon--close, span.elementor-menu-toggle__icon--open {
+        line-height: 0 !important;
+    }
