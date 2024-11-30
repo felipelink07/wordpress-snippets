@@ -1,0 +1,58 @@
+/**
+ * Important!
+ * 
+ * In Elementor, in the global color settings, keep the primary color to be the text color(usualy * black), not the brand color, because Elementor adds this color to all Headings and you`ll have * to change the text color to baclk every time you add a heading.
+ *
+ */
+
+
+/* Elementor button style */
+
+.elementor-button {
+  transition: transform 0.4s; /* Optional */
+  height: 48px;
+  padding: 0 32px;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600 !important;
+  letter-spacing: 0.1rem;
+  line-height: 64px;
+  background-color: var(--e-global-color-secondary) !important;
+  color: var(--e-global-color-primary) !important;;
+}
+
+
+/* You can remove the hover effect or change the settings */
+
+.elementor-button:hover {
+  transform: translateY(-4px);
+  filter: brightness(95%);
+}
+
+/* Light color (replace the e-global-color to your Site Settings color)*/
+
+.button-light .elementor-button {
+  background-color: var(--e-global-color-light) !important;
+  color: var(--e-global-color-secondary) !important;
+}
+
+/* Outline button dark*/
+
+.button-outline .elementor-button {
+  background-color: transparent !important;
+  color: var(--e-global-color-secondary);
+  border-radius: 50px;
+  border: 2px solid var(--e-global-color-secondary);
+}
+
+/* Buttom text*/
+
+.button-text .elementor-button {
+  background-color: transparent !important;
+  color: var(--e-global-color-secondary) !important;
+  border-radius: none !important;
+  border: none !important;
+  text-decoration: underline !important;
+  padding: 0 !important;
+}
+
